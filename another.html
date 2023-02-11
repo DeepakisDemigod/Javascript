@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>using javascript</title>
+<script language ="javascript">
+function f1() {
+	var n;
+	n=document.getElementById("t1").value;
+	fact=1;
+	while (n>1)
+	{
+		fact=fact*n;
+		n=n-1;
+	}
+	document.write("factorial of number n",fact)
+
+}
+</script>
+</head>
+<body>
+<h1>enter a number</h1>
+<input type="text" id="t1">
+<input type="button" value="Print Factorial" onClick="f1()">
+</body>
+</html>
